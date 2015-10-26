@@ -14,6 +14,9 @@
 		6BF873171BDE73FC009ABCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873151BDE73FC009ABCE7 /* LaunchScreen.storyboard */; };
 		6BF873221BDE73FC009ABCE7 /* HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF873211BDE73FC009ABCE7 /* HorizonTests.swift */; };
 		6BF8732D1BDE73FC009ABCE7 /* HorizonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8732C1BDE73FC009ABCE7 /* HorizonUITests.swift */; };
+		6BF8733D1BDE74DC009ABCE7 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8733A1BDE74DC009ABCE7 /* CIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		6BF8733E1BDE74DC009ABCE7 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8733B1BDE74DC009ABCE7 /* QRCode.swift */; settings = {ASSET_TAGS = (); }; };
+		6BF8733F1BDE74DC009ABCE7 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8733C1BDE74DC009ABCE7 /* UIImageViewExtension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6BF873281BDE73FC009ABCE7 /* HorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF8732C1BDE73FC009ABCE7 /* HorizonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonUITests.swift; sourceTree = "<group>"; };
 		6BF8732E1BDE73FC009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF8733A1BDE74DC009ABCE7 /* CIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIColorExtension.swift; sourceTree = "<group>"; };
+		6BF8733B1BDE74DC009ABCE7 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		6BF8733C1BDE74DC009ABCE7 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		6BF8730B1BDE73FC009ABCE7 /* Horizon */ = {
 			isa = PBXGroup;
 			children = (
+				6BF873411BDE74F3009ABCE7 /* Vendor */,
 				6BF8730C1BDE73FC009ABCE7 /* AppDelegate.swift */,
 				6BF8730E1BDE73FC009ABCE7 /* ViewController.swift */,
 				6BF873101BDE73FC009ABCE7 /* Main.storyboard */,
@@ -123,6 +130,24 @@
 				6BF8732E1BDE73FC009ABCE7 /* Info.plist */,
 			);
 			path = HorizonUITests;
+			sourceTree = "<group>";
+		};
+		6BF873401BDE74E7009ABCE7 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8733A1BDE74DC009ABCE7 /* CIColorExtension.swift */,
+				6BF8733B1BDE74DC009ABCE7 /* QRCode.swift */,
+				6BF8733C1BDE74DC009ABCE7 /* UIImageViewExtension.swift */,
+			);
+			name = QRCode;
+			sourceTree = "<group>";
+		};
+		6BF873411BDE74F3009ABCE7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6BF873401BDE74E7009ABCE7 /* QRCode */,
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF8733F1BDE74DC009ABCE7 /* UIImageViewExtension.swift in Sources */,
 				6BF8730F1BDE73FC009ABCE7 /* ViewController.swift in Sources */,
+				6BF8733E1BDE74DC009ABCE7 /* QRCode.swift in Sources */,
 				6BF8730D1BDE73FC009ABCE7 /* AppDelegate.swift in Sources */,
+				6BF8733D1BDE74DC009ABCE7 /* CIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
