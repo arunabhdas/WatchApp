@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BF8730D1BDE73FC009ABCE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8730C1BDE73FC009ABCE7 /* AppDelegate.swift */; };
+		6BF8730F1BDE73FC009ABCE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8730E1BDE73FC009ABCE7 /* ViewController.swift */; };
+		6BF873121BDE73FC009ABCE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873101BDE73FC009ABCE7 /* Main.storyboard */; };
+		6BF873141BDE73FC009ABCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873131BDE73FC009ABCE7 /* Assets.xcassets */; };
+		6BF873171BDE73FC009ABCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873151BDE73FC009ABCE7 /* LaunchScreen.storyboard */; };
+		6BF873221BDE73FC009ABCE7 /* HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF873211BDE73FC009ABCE7 /* HorizonTests.swift */; };
+		6BF8732D1BDE73FC009ABCE7 /* HorizonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8732C1BDE73FC009ABCE7 /* HorizonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF8731E1BDE73FC009ABCE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF873011BDE73FC009ABCE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF873081BDE73FC009ABCE7;
+			remoteInfo = Horizon;
+		};
+		6BF873291BDE73FC009ABCE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF873011BDE73FC009ABCE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF873081BDE73FC009ABCE7;
+			remoteInfo = Horizon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BF873091BDE73FC009ABCE7 /* Horizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF8730C1BDE73FC009ABCE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BF8730E1BDE73FC009ABCE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BF873111BDE73FC009ABCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BF873131BDE73FC009ABCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF873161BDE73FC009ABCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BF873181BDE73FC009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF8731D1BDE73FC009ABCE7 /* HorizonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF873211BDE73FC009ABCE7 /* HorizonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonTests.swift; sourceTree = "<group>"; };
+		6BF873231BDE73FC009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF873281BDE73FC009ABCE7 /* HorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF8732C1BDE73FC009ABCE7 /* HorizonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonUITests.swift; sourceTree = "<group>"; };
+		6BF8732E1BDE73FC009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF873061BDE73FC009ABCE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF8731A1BDE73FC009ABCE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF873251BDE73FC009ABCE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF873001BDE73FC009ABCE7 = {
+			isa = PBXGroup;
+			children = (
+				6BF8730B1BDE73FC009ABCE7 /* Horizon */,
+				6BF873201BDE73FC009ABCE7 /* HorizonTests */,
+				6BF8732B1BDE73FC009ABCE7 /* HorizonUITests */,
+				6BF8730A1BDE73FC009ABCE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF8730A1BDE73FC009ABCE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF873091BDE73FC009ABCE7 /* Horizon.app */,
+				6BF8731D1BDE73FC009ABCE7 /* HorizonTests.xctest */,
+				6BF873281BDE73FC009ABCE7 /* HorizonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF8730B1BDE73FC009ABCE7 /* Horizon */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8730C1BDE73FC009ABCE7 /* AppDelegate.swift */,
+				6BF8730E1BDE73FC009ABCE7 /* ViewController.swift */,
+				6BF873101BDE73FC009ABCE7 /* Main.storyboard */,
+				6BF873131BDE73FC009ABCE7 /* Assets.xcassets */,
+				6BF873151BDE73FC009ABCE7 /* LaunchScreen.storyboard */,
+				6BF873181BDE73FC009ABCE7 /* Info.plist */,
+			);
+			path = Horizon;
+			sourceTree = "<group>";
+		};
+		6BF873201BDE73FC009ABCE7 /* HorizonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF873211BDE73FC009ABCE7 /* HorizonTests.swift */,
+				6BF873231BDE73FC009ABCE7 /* Info.plist */,
+			);
+			path = HorizonTests;
+			sourceTree = "<group>";
+		};
+		6BF8732B1BDE73FC009ABCE7 /* HorizonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8732C1BDE73FC009ABCE7 /* HorizonUITests.swift */,
+				6BF8732E1BDE73FC009ABCE7 /* Info.plist */,
+			);
+			path = HorizonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF873081BDE73FC009ABCE7 /* Horizon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF873311BDE73FC009ABCE7 /* Build configuration list for PBXNativeTarget "Horizon" */;
+			buildPhases = (
+				6BF873051BDE73FC009ABCE7 /* Sources */,
+				6BF873061BDE73FC009ABCE7 /* Frameworks */,
+				6BF873071BDE73FC009ABCE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horizon;
+			productName = Horizon;
+			productReference = 6BF873091BDE73FC009ABCE7 /* Horizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BF8731C1BDE73FC009ABCE7 /* HorizonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF873341BDE73FC009ABCE7 /* Build configuration list for PBXNativeTarget "HorizonTests" */;
+			buildPhases = (
+				6BF873191BDE73FC009ABCE7 /* Sources */,
+				6BF8731A1BDE73FC009ABCE7 /* Frameworks */,
+				6BF8731B1BDE73FC009ABCE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF8731F1BDE73FC009ABCE7 /* PBXTargetDependency */,
+			);
+			name = HorizonTests;
+			productName = HorizonTests;
+			productReference = 6BF8731D1BDE73FC009ABCE7 /* HorizonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BF873271BDE73FC009ABCE7 /* HorizonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF873371BDE73FC009ABCE7 /* Build configuration list for PBXNativeTarget "HorizonUITests" */;
+			buildPhases = (
+				6BF873241BDE73FC009ABCE7 /* Sources */,
+				6BF873251BDE73FC009ABCE7 /* Frameworks */,
+				6BF873261BDE73FC009ABCE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF8732A1BDE73FC009ABCE7 /* PBXTargetDependency */,
+			);
+			name = HorizonUITests;
+			productName = HorizonUITests;
+			productReference = 6BF873281BDE73FC009ABCE7 /* HorizonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF873011BDE73FC009ABCE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arunabh Das";
+				TargetAttributes = {
+					6BF873081BDE73FC009ABCE7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6BF8731C1BDE73FC009ABCE7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6BF873081BDE73FC009ABCE7;
+					};
+					6BF873271BDE73FC009ABCE7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6BF873081BDE73FC009ABCE7;
+					};
+				};
+			};
+			buildConfigurationList = 6BF873041BDE73FC009ABCE7 /* Build configuration list for PBXProject "Horizon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF873001BDE73FC009ABCE7;
+			productRefGroup = 6BF8730A1BDE73FC009ABCE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF873081BDE73FC009ABCE7 /* Horizon */,
+				6BF8731C1BDE73FC009ABCE7 /* HorizonTests */,
+				6BF873271BDE73FC009ABCE7 /* HorizonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF873071BDE73FC009ABCE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF873171BDE73FC009ABCE7 /* LaunchScreen.storyboard in Resources */,
+				6BF873141BDE73FC009ABCE7 /* Assets.xcassets in Resources */,
+				6BF873121BDE73FC009ABCE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF8731B1BDE73FC009ABCE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF873261BDE73FC009ABCE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF873051BDE73FC009ABCE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF8730F1BDE73FC009ABCE7 /* ViewController.swift in Sources */,
+				6BF8730D1BDE73FC009ABCE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF873191BDE73FC009ABCE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF873221BDE73FC009ABCE7 /* HorizonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF873241BDE73FC009ABCE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF8732D1BDE73FC009ABCE7 /* HorizonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF8731F1BDE73FC009ABCE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF873081BDE73FC009ABCE7 /* Horizon */;
+			targetProxy = 6BF8731E1BDE73FC009ABCE7 /* PBXContainerItemProxy */;
+		};
+		6BF8732A1BDE73FC009ABCE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF873081BDE73FC009ABCE7 /* Horizon */;
+			targetProxy = 6BF873291BDE73FC009ABCE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BF873101BDE73FC009ABCE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF873111BDE73FC009ABCE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BF873151BDE73FC009ABCE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF873161BDE73FC009ABCE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF8732F1BDE73FC009ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BF873301BDE73FC009ABCE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF873321BDE73FC009ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.Horizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BF873331BDE73FC009ABCE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.Horizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BF873351BDE73FC009ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorizonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.HorizonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizon.app/Horizon";
+			};
+			name = Debug;
+		};
+		6BF873361BDE73FC009ABCE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorizonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.HorizonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizon.app/Horizon";
+			};
+			name = Release;
+		};
+		6BF873381BDE73FC009ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HorizonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.HorizonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Horizon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6BF873391BDE73FC009ABCE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HorizonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.HorizonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Horizon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF873041BDE73FC009ABCE7 /* Build configuration list for PBXProject "Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF8732F1BDE73FC009ABCE7 /* Debug */,
+				6BF873301BDE73FC009ABCE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF873311BDE73FC009ABCE7 /* Build configuration list for PBXNativeTarget "Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF873321BDE73FC009ABCE7 /* Debug */,
+				6BF873331BDE73FC009ABCE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF873341BDE73FC009ABCE7 /* Build configuration list for PBXNativeTarget "HorizonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF873351BDE73FC009ABCE7 /* Debug */,
+				6BF873361BDE73FC009ABCE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF873371BDE73FC009ABCE7 /* Build configuration list for PBXNativeTarget "HorizonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF873381BDE73FC009ABCE7 /* Debug */,
+				6BF873391BDE73FC009ABCE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF873011BDE73FC009ABCE7 /* Project object */;
+}
