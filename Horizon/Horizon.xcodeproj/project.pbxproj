@@ -17,6 +17,13 @@
 		6BF8733D1BDE74DC009ABCE7 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8733A1BDE74DC009ABCE7 /* CIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		6BF8733E1BDE74DC009ABCE7 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8733B1BDE74DC009ABCE7 /* QRCode.swift */; settings = {ASSET_TAGS = (); }; };
 		6BF8733F1BDE74DC009ABCE7 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8733C1BDE74DC009ABCE7 /* UIImageViewExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		6BF873481BDE75B2009ABCE7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873461BDE75B2009ABCE7 /* Interface.storyboard */; };
+		6BF8734A1BDE75B2009ABCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873491BDE75B2009ABCE7 /* Assets.xcassets */; };
+		6BF873511BDE75B2009ABCE7 /* Stare Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6BF873501BDE75B2009ABCE7 /* Stare Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6BF873561BDE75B2009ABCE7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF873551BDE75B2009ABCE7 /* InterfaceController.swift */; };
+		6BF873581BDE75B2009ABCE7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF873571BDE75B2009ABCE7 /* ExtensionDelegate.swift */; };
+		6BF8735A1BDE75B2009ABCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873591BDE75B2009ABCE7 /* Assets.xcassets */; };
+		6BF8735E1BDE75B2009ABCE7 /* Stare.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6BF873441BDE75B2009ABCE7 /* Stare.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,46 @@
 			remoteGlobalIDString = 6BF873081BDE73FC009ABCE7;
 			remoteInfo = Horizon;
 		};
+		6BF873521BDE75B2009ABCE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF873011BDE73FC009ABCE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF8734F1BDE75B2009ABCE7;
+			remoteInfo = "Stare Extension";
+		};
+		6BF8735C1BDE75B2009ABCE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF873011BDE73FC009ABCE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF873431BDE75B2009ABCE7;
+			remoteInfo = Stare;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BF873621BDE75B2009ABCE7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6BF873511BDE75B2009ABCE7 /* Stare Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF873661BDE75B2009ABCE7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6BF8735E1BDE75B2009ABCE7 /* Stare.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6BF873091BDE73FC009ABCE7 /* Horizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +99,15 @@
 		6BF8733A1BDE74DC009ABCE7 /* CIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIColorExtension.swift; sourceTree = "<group>"; };
 		6BF8733B1BDE74DC009ABCE7 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		6BF8733C1BDE74DC009ABCE7 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		6BF873441BDE75B2009ABCE7 /* Stare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF873471BDE75B2009ABCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6BF873491BDE75B2009ABCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF8734B1BDE75B2009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF873501BDE75B2009ABCE7 /* Stare Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stare Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF873551BDE75B2009ABCE7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6BF873571BDE75B2009ABCE7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6BF873591BDE75B2009ABCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF8735B1BDE75B2009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +132,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BF8734D1BDE75B2009ABCE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +148,8 @@
 				6BF8730B1BDE73FC009ABCE7 /* Horizon */,
 				6BF873201BDE73FC009ABCE7 /* HorizonTests */,
 				6BF8732B1BDE73FC009ABCE7 /* HorizonUITests */,
+				6BF873451BDE75B2009ABCE7 /* Stare */,
+				6BF873541BDE75B2009ABCE7 /* Stare Extension */,
 				6BF8730A1BDE73FC009ABCE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +160,8 @@
 				6BF873091BDE73FC009ABCE7 /* Horizon.app */,
 				6BF8731D1BDE73FC009ABCE7 /* HorizonTests.xctest */,
 				6BF873281BDE73FC009ABCE7 /* HorizonUITests.xctest */,
+				6BF873441BDE75B2009ABCE7 /* Stare.app */,
+				6BF873501BDE75B2009ABCE7 /* Stare Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +216,27 @@
 			name = Vendor;
 			sourceTree = "<group>";
 		};
+		6BF873451BDE75B2009ABCE7 /* Stare */ = {
+			isa = PBXGroup;
+			children = (
+				6BF873461BDE75B2009ABCE7 /* Interface.storyboard */,
+				6BF873491BDE75B2009ABCE7 /* Assets.xcassets */,
+				6BF8734B1BDE75B2009ABCE7 /* Info.plist */,
+			);
+			path = Stare;
+			sourceTree = "<group>";
+		};
+		6BF873541BDE75B2009ABCE7 /* Stare Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6BF873551BDE75B2009ABCE7 /* InterfaceController.swift */,
+				6BF873571BDE75B2009ABCE7 /* ExtensionDelegate.swift */,
+				6BF873591BDE75B2009ABCE7 /* Assets.xcassets */,
+				6BF8735B1BDE75B2009ABCE7 /* Info.plist */,
+			);
+			path = "Stare Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,10 +247,12 @@
 				6BF873051BDE73FC009ABCE7 /* Sources */,
 				6BF873061BDE73FC009ABCE7 /* Frameworks */,
 				6BF873071BDE73FC009ABCE7 /* Resources */,
+				6BF873661BDE75B2009ABCE7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6BF8735D1BDE75B2009ABCE7 /* PBXTargetDependency */,
 			);
 			name = Horizon;
 			productName = Horizon;
@@ -206,6 +295,40 @@
 			productReference = 6BF873281BDE73FC009ABCE7 /* HorizonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6BF873431BDE75B2009ABCE7 /* Stare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF873631BDE75B2009ABCE7 /* Build configuration list for PBXNativeTarget "Stare" */;
+			buildPhases = (
+				6BF873421BDE75B2009ABCE7 /* Resources */,
+				6BF873621BDE75B2009ABCE7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF873531BDE75B2009ABCE7 /* PBXTargetDependency */,
+			);
+			name = Stare;
+			productName = Stare;
+			productReference = 6BF873441BDE75B2009ABCE7 /* Stare.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6BF8734F1BDE75B2009ABCE7 /* Stare Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF8735F1BDE75B2009ABCE7 /* Build configuration list for PBXNativeTarget "Stare Extension" */;
+			buildPhases = (
+				6BF8734C1BDE75B2009ABCE7 /* Sources */,
+				6BF8734D1BDE75B2009ABCE7 /* Frameworks */,
+				6BF8734E1BDE75B2009ABCE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stare Extension";
+			productName = "Stare Extension";
+			productReference = 6BF873501BDE75B2009ABCE7 /* Stare Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +349,12 @@
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 6BF873081BDE73FC009ABCE7;
 					};
+					6BF873431BDE75B2009ABCE7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6BF8734F1BDE75B2009ABCE7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 6BF873041BDE73FC009ABCE7 /* Build configuration list for PBXProject "Horizon" */;
@@ -244,6 +373,8 @@
 				6BF873081BDE73FC009ABCE7 /* Horizon */,
 				6BF8731C1BDE73FC009ABCE7 /* HorizonTests */,
 				6BF873271BDE73FC009ABCE7 /* HorizonUITests */,
+				6BF873431BDE75B2009ABCE7 /* Stare */,
+				6BF8734F1BDE75B2009ABCE7 /* Stare Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +401,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF873421BDE75B2009ABCE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF8734A1BDE75B2009ABCE7 /* Assets.xcassets in Resources */,
+				6BF873481BDE75B2009ABCE7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF8734E1BDE75B2009ABCE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF8735A1BDE75B2009ABCE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +452,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BF8734C1BDE75B2009ABCE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF873581BDE75B2009ABCE7 /* ExtensionDelegate.swift in Sources */,
+				6BF873561BDE75B2009ABCE7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -316,6 +473,16 @@
 			isa = PBXTargetDependency;
 			target = 6BF873081BDE73FC009ABCE7 /* Horizon */;
 			targetProxy = 6BF873291BDE73FC009ABCE7 /* PBXContainerItemProxy */;
+		};
+		6BF873531BDE75B2009ABCE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF8734F1BDE75B2009ABCE7 /* Stare Extension */;
+			targetProxy = 6BF873521BDE75B2009ABCE7 /* PBXContainerItemProxy */;
+		};
+		6BF8735D1BDE75B2009ABCE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF873431BDE75B2009ABCE7 /* Stare */;
+			targetProxy = 6BF8735C1BDE75B2009ABCE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -334,6 +501,14 @@
 				6BF873161BDE73FC009ABCE7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6BF873461BDE75B2009ABCE7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF873471BDE75B2009ABCE7 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -490,6 +665,66 @@
 			};
 			name = Release;
 		};
+		6BF873601BDE75B2009ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stare Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.Horizon.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		6BF873611BDE75B2009ABCE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stare Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.Horizon.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		6BF873641BDE75B2009ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Stare_Extension;
+				INFOPLIST_FILE = Stare/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.Horizon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		6BF873651BDE75B2009ABCE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Stare_Extension;
+				INFOPLIST_FILE = Stare/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.Horizon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,6 +758,22 @@
 			buildConfigurations = (
 				6BF873381BDE73FC009ABCE7 /* Debug */,
 				6BF873391BDE73FC009ABCE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF8735F1BDE75B2009ABCE7 /* Build configuration list for PBXNativeTarget "Stare Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF873601BDE75B2009ABCE7 /* Debug */,
+				6BF873611BDE75B2009ABCE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF873631BDE75B2009ABCE7 /* Build configuration list for PBXNativeTarget "Stare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF873641BDE75B2009ABCE7 /* Debug */,
+				6BF873651BDE75B2009ABCE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
