@@ -20,7 +20,6 @@
 		6BF873481BDE75B2009ABCE7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873461BDE75B2009ABCE7 /* Interface.storyboard */; };
 		6BF8734A1BDE75B2009ABCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873491BDE75B2009ABCE7 /* Assets.xcassets */; };
 		6BF873511BDE75B2009ABCE7 /* Stare Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6BF873501BDE75B2009ABCE7 /* Stare Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6BF873561BDE75B2009ABCE7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF873551BDE75B2009ABCE7 /* InterfaceController.swift */; };
 		6BF873581BDE75B2009ABCE7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF873571BDE75B2009ABCE7 /* ExtensionDelegate.swift */; };
 		6BF8735A1BDE75B2009ABCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF873591BDE75B2009ABCE7 /* Assets.xcassets */; };
 		6BF8735E1BDE75B2009ABCE7 /* Stare.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6BF873441BDE75B2009ABCE7 /* Stare.app */; };
@@ -104,7 +103,6 @@
 		6BF873491BDE75B2009ABCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF8734B1BDE75B2009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BF873501BDE75B2009ABCE7 /* Stare Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stare Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BF873551BDE75B2009ABCE7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		6BF873571BDE75B2009ABCE7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6BF873591BDE75B2009ABCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF8735B1BDE75B2009ABCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,7 +227,6 @@
 		6BF873541BDE75B2009ABCE7 /* Stare Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6BF873551BDE75B2009ABCE7 /* InterfaceController.swift */,
 				6BF873571BDE75B2009ABCE7 /* ExtensionDelegate.swift */,
 				6BF873591BDE75B2009ABCE7 /* Assets.xcassets */,
 				6BF8735B1BDE75B2009ABCE7 /* Info.plist */,
@@ -457,7 +454,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF873581BDE75B2009ABCE7 /* ExtensionDelegate.swift in Sources */,
-				6BF873561BDE75B2009ABCE7 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
